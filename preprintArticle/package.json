@@ -1,0 +1,11 @@
+{
+  "name": "preprintarticle",
+  "version": "1.0.0",
+  "description": "APA Citation reference (preprint article) API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clarck Tumazar",
+  "license": "ISC"
+}

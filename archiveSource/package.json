@@ -1,0 +1,12 @@
+{
+  "name": "archivesource",
+  "version": "1.0.0",
+  "description": "APA Citation reference (archive source) API",
+  "main": "citeArchiveSource.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clarck Tumazar",
+  "license": "ISC",
+  "type": "module"
+}
