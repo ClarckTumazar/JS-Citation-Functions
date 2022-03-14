@@ -1,0 +1,12 @@
+{
+  "name": "datesetsource",
+  "version": "1.0.0",
+  "description": "Dateset reference citation APA ",
+  "main": "citeDateset",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clarck Tumazar",
+  "license": "ISC",
+  "type": "module"
+}

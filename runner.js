@@ -7,6 +7,7 @@ import { citePreprintArticle } from "./preprintArticle/citePreprintArticle.js";
 import { bppDetails as z } from "./Brochure, Pamphlet or Painting Source/BPPDetails.js";
 import { citeBpp } from "./Brochure, Pamphlet or Painting Source/citeBrchrPmpltPaintingSource.js"
 
+import { datasetDetails } from "./DatesetSource/datasetDetails.js";
 
 //prints results of citeArchiveSource function
 //console.log(citeArchiveSource(x.Authors, x.Date, x.Title, x.Description, x.Collection, x.Repository));
@@ -27,4 +28,4 @@ console.log(citeBpp(z.Authors, z.Date, z.Title, z.DocType, z.Publisher));
 //TODO:
 //recheck preprint Article - Done 
 //try to finish other references
-//reference list: Brochure, Data set, Dictionary, PPT
+//reference list: Brochure(Done), Data set, Dictionary, PPT
