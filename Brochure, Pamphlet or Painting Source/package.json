@@ -1,0 +1,12 @@
+{
+  "name": "brochure_pamphlet_or_painting_source",
+  "version": "1.0.0",
+  "description": "brochure pamphlet or painting reference source citation",
+  "main": "citeBrchrPmpltPaintingSource",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clarck Tumazar",
+  "license": "ISC",
+  "type": "module"
+}
