@@ -20,7 +20,7 @@ const citeArchiveSource = (Authors, Date, Title, Description, Collection, Reposi
     let finalRepository = formatRepository(Repository);
 
     let finalFormat = ""; 
-    if (Authors != "") {
+    if (finalAuthors != "") {
         finalFormat = finalAuthors + finalDate + finalTitle + finalDescription + finalCollection + finalRepository;
     }
     else {

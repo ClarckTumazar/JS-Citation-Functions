@@ -3,8 +3,8 @@
 const archiveSourceDetails = {
     Authors: [
              {
-                 Lastname: "batongtae",
-                 Initials: "D. G."
+                 Lastname: "",
+                 Initials: ""
              }
             ],
     Date: {

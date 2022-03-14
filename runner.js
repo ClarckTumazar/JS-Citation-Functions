@@ -5,10 +5,10 @@ import { preprintArticleDetails as y} from "./preprintArticle/preprintArticleDet
 import { citePreprintArticle } from "./preprintArticle/citePreprintArticle.js";
 
 //prints results of citeArchiveSource function
-//console.log(citeArchiveSource(x.Authors, x.Date, x.Title, x.Description, x.Collection, x.Repository));
+console.log(citeArchiveSource(x.Authors, x.Date, x.Title, x.Description, x.Collection, x.Repository));
 
 //print results of citePreprintArticle function
-console.log(citePreprintArticle(y.Authors, y.Date, y.Title, y.Repository, y.Url));
+//console.log(citePreprintArticle(y.Authors, y.Date, y.Title, y.Repository, y.Url));
 
 //TODO:
 //recheck preprint Article - Done 
