@@ -9,6 +9,8 @@ import { citePreprintArticle } from "./preprintArticle/citePreprintArticle.js";
 
 //print results of citePreprintArticle function
 console.log(citePreprintArticle(y.Authors, y.Date, y.Title, y.Repository, y.Url));
+
 //TODO:
-//recheck preprint Article then try to finish other references
+//recheck preprint Article - Done 
+//try to finish other references
 //reference list: Brochure, Data set, Dictionary, PPT
