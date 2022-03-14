@@ -3,25 +3,25 @@
 const archiveSourceDetails = {
     Authors: [
              {
-                 Lastname: "",
-                 Initials: ""
+                 Lastname: "Tumazar",
+                 Initials: "C. L."
              }
             ],
     Date: {
             Year: "2015",
-            Month: "",
-            Day: ""
+            Month: "January",
+            Day: "29"
          },
 
     Title: "Johnny can read better than never",
-    Description: "Encry Farlow (Ecfly)",
+    Description: "This is the description",
     Collection: {
                     Name: "House of Collab Collections",
-                    Details: "",
+                    Details: "series 14, file item 1304",
                 },
 
     Repository: {
-        Name: "",
+        Name: "Pamantasan ng Lungsod ng Maynilad",
         City: "Halifax, Nova Scotia, Canada"
     }
 }
