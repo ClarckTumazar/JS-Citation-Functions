@@ -3,8 +3,8 @@
 //Archive Source without title must have description and author. if with title, description can be ignored. 
 //Archive source will have no collection details if copy is in possesion of author.
 
-import { formatAuthors } from "./utils/formatAuthors.js";
-import { formatDate } from "./utils/formatDate.js";
+import { formatAuthors } from "../_globalUtils/formatAuthors.js";
+import { formatDate } from "../_globalUtils/formatDate.js";
 import { formatCollection } from "./utils/formatCollection.js";
 import { formatTitle } from "./utils/formatTitle.js";
 import { formatDescription } from "./utils/formatDescription.js";
