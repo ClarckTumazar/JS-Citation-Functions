@@ -1,13 +1,10 @@
 //this functions put brackets and a period to the description to fit the APA format.
 
-const formatDescription = (Description) => {
-    let formattedDescription = "";
+const formatDescription = Description => {
     if (Description != ""){
-        return formattedDescription = ` [${Description}].`;
+        return ` [${Description}].`;
     } 
-    else {
-        return formattedDescription;
-    }
+    else return "";
 }
 
 export { formatDescription };

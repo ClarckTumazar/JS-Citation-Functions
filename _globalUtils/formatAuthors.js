@@ -3,7 +3,7 @@
 
 import { isObjEmpty } from "./isObjEmpty.js";
 
-const formatAuthors = (Authors) => {
+const formatAuthors = Authors => {
  let formattedAuthors = "";
  let authorsCount = Authors.length;
  let ctr = 0;
@@ -62,11 +62,8 @@ const formatAuthors = (Authors) => {
                 return formattedAuthors += `${Authors[ctr].Initials}`;
             }
         }
-
         //if this single author contains empty string then it will return empty.
-        else {
-            return formattedAuthors;
-        }
+        else return formattedAuthors;
     }
 }
 

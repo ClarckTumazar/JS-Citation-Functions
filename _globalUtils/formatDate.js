@@ -3,19 +3,18 @@
 //year will be a required field in the UI as much as possible, but I still put the n.d. option as this is what is stated
 //in the APA format when source has no date provided.
 
-const formatDate = (Date) => {
-    let formattedDate = "";
+const formatDate = Date => {
 
         if (Date.Year != "") {
             if (Date.Month != "" && Date.Day != "") {
-                return formattedDate = ` (${Date.Year}, ${Date.Month} ${Date.Day}).`;
+                return ` (${Date.Year}, ${Date.Month} ${Date.Day}).`;
             }
             else {
-                return formattedDate = ` (${Date.Year}).`;
+                return ` (${Date.Year}).`;
             }
         }
         else {
-            return formattedDate = ` (n.d.).`;
+            return ` (n.d.).`;
         }
 }
 export { formatDate }; 

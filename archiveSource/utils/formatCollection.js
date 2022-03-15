@@ -3,7 +3,7 @@
 //The entire collection and its details can also be empty.
 import { isObjEmpty } from "../../_globalUtils/isObjEmpty.js";
 
-const formatCollection = (Collection) => {
+const formatCollection = Collection => {
     //concatenating all collection details into a single variable.
     let formattedCollection = "";
 

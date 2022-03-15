@@ -3,7 +3,7 @@
 
 import { isObjEmpty } from "../../_globalUtils/isObjEmpty.js";
 
-const formatEditors = (Editors) => {
+const formatEditors = Editors => {
  let formattedEditors = "";
  let EditorsCount = Editors.length;
  let ctr = 0;
