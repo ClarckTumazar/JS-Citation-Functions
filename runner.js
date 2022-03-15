@@ -10,6 +10,9 @@ import { citeBpp } from "./Brochure, Pamphlet or Painting Source/citeBrchrPmpltP
 import { datasetDetails as d } from "./datasetSource/datasetDetails.js";
 import { citeDataset } from "./datasetSource/citeDataset.js";
 
+import { dictOrEncycloDetails as a } from "./dictionaryorEncyclopedia/DictorEncycloDetails.js";
+import { citeDictOrEncyclo } from "./dictionaryorEncyclopedia/citeDictOrEncyclo.js";
+
 //prints results of citeArchiveSource function
 //console.log(citeArchiveSource(x.Authors, x.Date, x.Title, x.Description, x.Collection, x.Repository));
 
@@ -19,8 +22,10 @@ import { citeDataset } from "./datasetSource/citeDataset.js";
 //print results of citeBpp function
 //console.log(citeBpp(z.Authors, z.Date, z.Title, z.DocType, z.Publisher));
 
-console.log(citeDataset(d.Authors, d.Date, d.Title, d.Website, d.UrlorDoi));
+//print results of citeDataset function
+//console.log(citeDataset(d.Authors, d.Date, d.Title, d.Website, d.UrlorDoi));
 
+console.log(citeDictOrEncyclo(a.Authors, a.Date, a.Term, a.Editors, a.SourceTitle, a.Edition, a.Page, a.Url));
 
 
 
@@ -30,4 +35,4 @@ console.log(citeDataset(d.Authors, d.Date, d.Title, d.Website, d.UrlorDoi));
 //TODO:
 //recheck preprint Article - Done 
 //try to finish other references
-//reference list: Brochure(Done), Data set, Dictionary, PPT
+//reference list: Brochure(Done), Data set(Done), Dictionary, PPT

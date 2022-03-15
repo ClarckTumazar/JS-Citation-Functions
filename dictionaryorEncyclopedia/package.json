@@ -1,0 +1,12 @@
+{
+  "name": "dictionaryorencyclopedia",
+  "version": "1.0.0",
+  "description": "dictionary or encyclopedia reference citation APA",
+  "main": "citeDictOrEncyclo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clarck Tumazar",
+  "license": "ISC",
+  "type": "module"
+}
