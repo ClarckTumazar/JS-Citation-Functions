@@ -25,7 +25,7 @@ import { citeDictOrEncyclo } from "./dictionaryorEncyclopedia/citeDictOrEncyclo.
 //print results of citeDataset function
 //console.log(citeDataset(d.Authors, d.Date, d.Title, d.Website, d.UrlorDoi));
 
-console.log(citeDictOrEncyclo(a.Authors, a.Date, a.Term, a.Editors, a.SourceTitle, a.Edition, a.Page, a.Url));
+console.log(citeDictOrEncyclo(a));
 
 
 

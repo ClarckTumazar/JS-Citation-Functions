@@ -12,7 +12,6 @@ const formatRepository = Repository => {
     else {
         return formattedRepository;
     }
-    
 }
 
 export { formatRepository };

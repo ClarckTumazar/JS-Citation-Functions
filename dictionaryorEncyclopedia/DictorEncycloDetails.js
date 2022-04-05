@@ -23,10 +23,12 @@ const dictOrEncycloDetails = {
                     Initials: "Y."
                 }
               ],
-    Edition: "",
-    Page: "",
+    Edition: "2",
+    Page: "pp. 135",
     SourceTitle: "Stanford Psychology Encyclopedia",
-    Url: "https://plato.stanford.edu/entries/ethics-virtue/"
+    Url: "https://plato.stanford.edu/entries/ethics-virtue/",
+    City: "",
+    Publisher: ""
 }
 
 export { dictOrEncycloDetails };
